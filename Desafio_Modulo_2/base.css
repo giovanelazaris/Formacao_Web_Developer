@@ -1,0 +1,132 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: white;
+    padding: 15px 20px 10px;
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+
+}
+
+.footer {
+    background-color: lightgrey;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+table {
+    -webkit-box-shadow: 10px 8px 8px 3px rgba(179, 179, 179, 0.81);
+    box-shadow: 10px 8px 8px 3px rgba(179, 179, 179, 0.81);
+    border: solid 1px gray;
+}
+
+table thead th {
+    background-color: black;
+    color: white;
+}
+
+.row {
+    margin: 5px;
+}
+
+label {
+    width: 100px;
+    text-align: left;
+    display: grid;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+input[type="text"] {
+    width: 40%;
+}
+
+input[type="email"] {
+    width: 40%;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.item {
+    text-align: center;
+    padding: 0px;
+}
+
+.item h2 {
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.item p {
+    margin-top: 1px;
+}
+
+.content h1 {
+    margin-bottom: 1px;
+}
+
+.content h3 {
+    margin-top: 1px;
+}
+
+.localizacao p {
+    font-size: 25px;
+}
+
+.content p {
+    font-size: 20px;
+}
